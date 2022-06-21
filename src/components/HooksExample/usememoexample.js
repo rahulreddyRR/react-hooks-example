@@ -51,9 +51,4 @@ const Increment = memo((props) => {
   return <button onClick={props.increment}>Increment</button>;
 });
 
-const Decrement = memo((props) => {
-  console.log('increment Decrement');
-  return <button onClick={props.increment}>Decrement</button>;
-});
-
 export default UseCallbackexample;
